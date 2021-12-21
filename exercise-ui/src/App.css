@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(129, 173, 230);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+font {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #c3c9da;}
+tr:nth-child(odd){background-color: #aec1eb;}
+
+tr:hover {background-color: rgb(191, 193, 209);}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7350a1;
+  color: white;
+}
